@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841CB8CC2B13206E00313516 /* Veggie_GardenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CB8CB2B13206E00313516 /* Veggie_GardenApp.swift */; };
+		841CB8CE2B13206E00313516 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CB8CD2B13206E00313516 /* ContentView.swift */; };
+		841CB8D02B13207200313516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841CB8CF2B13207200313516 /* Assets.xcassets */; };
+		841CB8D32B13207200313516 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841CB8D22B13207200313516 /* Preview Assets.xcassets */; };
+		841CB8DD2B13207200313516 /* Veggie_GardenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CB8DC2B13207200313516 /* Veggie_GardenTests.swift */; };
+		841CB8E72B13207200313516 /* Veggie_GardenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CB8E62B13207200313516 /* Veggie_GardenUITests.swift */; };
+		841CB8E92B13207200313516 /* Veggie_GardenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CB8E82B13207200313516 /* Veggie_GardenUITestsLaunchTests.swift */; };
+		841CB8FA2B1337D700313516 /* signUpview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CB8F92B1337D700313516 /* signUpview.swift */; };
+		841CB8FB2B1337D700313516 /* signUpview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CB8F92B1337D700313516 /* signUpview.swift */; };
+		841CB8FC2B1337D700313516 /* signUpview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CB8F92B1337D700313516 /* signUpview.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		841CB8D92B13207200313516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841CB8C02B13206E00313516 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841CB8C72B13206E00313516;
+			remoteInfo = "Veggie Garden";
+		};
+		841CB8E32B13207200313516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841CB8C02B13206E00313516 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841CB8C72B13206E00313516;
+			remoteInfo = "Veggie Garden";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		841CB8C82B13206E00313516 /* Veggie Garden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Veggie Garden.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		841CB8CB2B13206E00313516 /* Veggie_GardenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veggie_GardenApp.swift; sourceTree = "<group>"; };
+		841CB8CD2B13206E00313516 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		841CB8CF2B13207200313516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		841CB8D22B13207200313516 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		841CB8D82B13207200313516 /* Veggie GardenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veggie GardenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		841CB8DC2B13207200313516 /* Veggie_GardenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veggie_GardenTests.swift; sourceTree = "<group>"; };
+		841CB8E22B13207200313516 /* Veggie GardenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veggie GardenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		841CB8E62B13207200313516 /* Veggie_GardenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veggie_GardenUITests.swift; sourceTree = "<group>"; };
+		841CB8E82B13207200313516 /* Veggie_GardenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veggie_GardenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		841CB8F92B1337D700313516 /* signUpview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpview.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		841CB8C52B13206E00313516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841CB8D52B13207200313516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841CB8DF2B13207200313516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841CB8BF2B13206E00313516 = {
+			isa = PBXGroup;
+			children = (
+				841CB8CA2B13206E00313516 /* Veggie Garden */,
+				841CB8DB2B13207200313516 /* Veggie GardenTests */,
+				841CB8E52B13207200313516 /* Veggie GardenUITests */,
+				841CB8C92B13206E00313516 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		841CB8C92B13206E00313516 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				841CB8C82B13206E00313516 /* Veggie Garden.app */,
+				841CB8D82B13207200313516 /* Veggie GardenTests.xctest */,
+				841CB8E22B13207200313516 /* Veggie GardenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841CB8CA2B13206E00313516 /* Veggie Garden */ = {
+			isa = PBXGroup;
+			children = (
+				841CB8CB2B13206E00313516 /* Veggie_GardenApp.swift */,
+				841CB8CD2B13206E00313516 /* ContentView.swift */,
+				841CB8CF2B13207200313516 /* Assets.xcassets */,
+				841CB8D12B13207200313516 /* Preview Content */,
+				841CB8F92B1337D700313516 /* signUpview.swift */,
+			);
+			path = "Veggie Garden";
+			sourceTree = "<group>";
+		};
+		841CB8D12B13207200313516 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				841CB8D22B13207200313516 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		841CB8DB2B13207200313516 /* Veggie GardenTests */ = {
+			isa = PBXGroup;
+			children = (
+				841CB8DC2B13207200313516 /* Veggie_GardenTests.swift */,
+			);
+			path = "Veggie GardenTests";
+			sourceTree = "<group>";
+		};
+		841CB8E52B13207200313516 /* Veggie GardenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				841CB8E62B13207200313516 /* Veggie_GardenUITests.swift */,
+				841CB8E82B13207200313516 /* Veggie_GardenUITestsLaunchTests.swift */,
+			);
+			path = "Veggie GardenUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		841CB8C72B13206E00313516 /* Veggie Garden */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841CB8EC2B13207200313516 /* Build configuration list for PBXNativeTarget "Veggie Garden" */;
+			buildPhases = (
+				841CB8C42B13206E00313516 /* Sources */,
+				841CB8C52B13206E00313516 /* Frameworks */,
+				841CB8C62B13206E00313516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Veggie Garden";
+			productName = "Veggie Garden";
+			productReference = 841CB8C82B13206E00313516 /* Veggie Garden.app */;
+			productType = "com.apple.product-type.application";
+		};
+		841CB8D72B13207200313516 /* Veggie GardenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841CB8EF2B13207200313516 /* Build configuration list for PBXNativeTarget "Veggie GardenTests" */;
+			buildPhases = (
+				841CB8D42B13207200313516 /* Sources */,
+				841CB8D52B13207200313516 /* Frameworks */,
+				841CB8D62B13207200313516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841CB8DA2B13207200313516 /* PBXTargetDependency */,
+			);
+			name = "Veggie GardenTests";
+			productName = "Veggie GardenTests";
+			productReference = 841CB8D82B13207200313516 /* Veggie GardenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		841CB8E12B13207200313516 /* Veggie GardenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841CB8F22B13207200313516 /* Build configuration list for PBXNativeTarget "Veggie GardenUITests" */;
+			buildPhases = (
+				841CB8DE2B13207200313516 /* Sources */,
+				841CB8DF2B13207200313516 /* Frameworks */,
+				841CB8E02B13207200313516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841CB8E42B13207200313516 /* PBXTargetDependency */,
+			);
+			name = "Veggie GardenUITests";
+			productName = "Veggie GardenUITests";
+			productReference = 841CB8E22B13207200313516 /* Veggie GardenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841CB8C02B13206E00313516 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					841CB8C72B13206E00313516 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					841CB8D72B13207200313516 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 841CB8C72B13206E00313516;
+					};
+					841CB8E12B13207200313516 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 841CB8C72B13206E00313516;
+					};
+				};
+			};
+			buildConfigurationList = 841CB8C32B13206E00313516 /* Build configuration list for PBXProject "Veggie Garden" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 841CB8BF2B13206E00313516;
+			productRefGroup = 841CB8C92B13206E00313516 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				841CB8C72B13206E00313516 /* Veggie Garden */,
+				841CB8D72B13207200313516 /* Veggie GardenTests */,
+				841CB8E12B13207200313516 /* Veggie GardenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		841CB8C62B13206E00313516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841CB8D32B13207200313516 /* Preview Assets.xcassets in Resources */,
+				841CB8D02B13207200313516 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841CB8D62B13207200313516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841CB8E02B13207200313516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		841CB8C42B13206E00313516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841CB8FA2B1337D700313516 /* signUpview.swift in Sources */,
+				841CB8CE2B13206E00313516 /* ContentView.swift in Sources */,
+				841CB8CC2B13206E00313516 /* Veggie_GardenApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841CB8D42B13207200313516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841CB8FB2B1337D700313516 /* signUpview.swift in Sources */,
+				841CB8DD2B13207200313516 /* Veggie_GardenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841CB8DE2B13207200313516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841CB8FC2B1337D700313516 /* signUpview.swift in Sources */,
+				841CB8E92B13207200313516 /* Veggie_GardenUITestsLaunchTests.swift in Sources */,
+				841CB8E72B13207200313516 /* Veggie_GardenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		841CB8DA2B13207200313516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841CB8C72B13206E00313516 /* Veggie Garden */;
+			targetProxy = 841CB8D92B13207200313516 /* PBXContainerItemProxy */;
+		};
+		841CB8E42B13207200313516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841CB8C72B13206E00313516 /* Veggie Garden */;
+			targetProxy = 841CB8E32B13207200313516 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		841CB8EA2B13207200313516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		841CB8EB2B13207200313516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		841CB8ED2B13207200313516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Veggie Garden/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vg.Veggie-Garden";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		841CB8EE2B13207200313516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Veggie Garden/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vg.Veggie-Garden";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		841CB8F02B13207200313516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vg.Veggie-GardenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veggie Garden.app/Veggie Garden";
+			};
+			name = Debug;
+		};
+		841CB8F12B13207200313516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vg.Veggie-GardenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veggie Garden.app/Veggie Garden";
+			};
+			name = Release;
+		};
+		841CB8F32B13207200313516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vg.Veggie-GardenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Veggie Garden";
+			};
+			name = Debug;
+		};
+		841CB8F42B13207200313516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vg.Veggie-GardenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Veggie Garden";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		841CB8C32B13206E00313516 /* Build configuration list for PBXProject "Veggie Garden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841CB8EA2B13207200313516 /* Debug */,
+				841CB8EB2B13207200313516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841CB8EC2B13207200313516 /* Build configuration list for PBXNativeTarget "Veggie Garden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841CB8ED2B13207200313516 /* Debug */,
+				841CB8EE2B13207200313516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841CB8EF2B13207200313516 /* Build configuration list for PBXNativeTarget "Veggie GardenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841CB8F02B13207200313516 /* Debug */,
+				841CB8F12B13207200313516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841CB8F22B13207200313516 /* Build configuration list for PBXNativeTarget "Veggie GardenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841CB8F32B13207200313516 /* Debug */,
+				841CB8F42B13207200313516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 841CB8C02B13206E00313516 /* Project object */;
+}
